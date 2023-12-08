@@ -1,0 +1,70 @@
+env:
+  TERM: xterm-256color
+
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+
+  bold:
+    family: JetBrainsMono Nerd Font
+  
+  italic:
+    family: JetBrainsMono Nerd Font
+
+  bold_italic:
+    family: JetBrainsMono Nerd Font
+
+  size: 7
+
+window:
+  padding:
+    x: 18
+    y: 18
+
+  decorations: none
+
+  opacity: 1.0
+  history: 10
+  multiplier: 3
+
+selection:
+  save_to_clipboard: false
+
+cursor:
+  style:
+    shape: block
+    
+  unfocused_hollow: false 
+  blink_interval: 550
+
+live_config_reload: true
+
+colors:
+  primary:
+    background: '#0f1415'
+    foreground: '#86dbeb'
+  
+  cursor:
+    text: '0x111827'
+    cursor: '0xD1D5DB'
+
+  normal:
+    black:   '0x6B7280'
+    red:     '0xFCA5A5'
+    green:   '0xB1E3AD'
+    yellow:  '0xFBC19D'
+    blue:    '#829be8'
+    magenta: '0x957FB8'
+    cyan:    '0xDDD6FE'
+    white:   '0xA5F3FC'
+
+  bright:
+    black:   '0x6B7280'
+    red:     '0xFCA5A5'
+    green:   '0xB1E3AD'
+    yellow:  '0xFBC19D'
+    blue:    '0xBAE6FD'
+    magenta: '0x938AA9'
+    cyan:    '0xDDD6FE'
+    white:   '0xA5F3FC'
+
