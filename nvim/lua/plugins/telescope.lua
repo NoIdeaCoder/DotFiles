@@ -6,21 +6,23 @@ return {
  config = function()
      local builtin = require('telescope.builtin')
      local telescope = require('telescope')
-
+     local actions = require ('telescope.actions')
      -- Set up Telescope
      telescope.setup {
          defaults = {
              layout_strategy = 'horizontal', 
              layout_config = {
                horizontal = {
-                  width = 0.5, 
+                  width = 0.9, 
                   height = 0.5,
                },
-               preview_width = 0.0,
                prompt_position = 'top', 
-               preview = {
-                  split = 'above',
-               },
+             },
+             mappings = {
+                i = {
+                    ["<C-e>"] = { "<esc>", type = "command" },
+                    ["<C-c>"] = actions.close,
+                },
              },
          },
      }
